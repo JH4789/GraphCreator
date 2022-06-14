@@ -31,7 +31,7 @@ int main() {
   bool running = true;
   //Main looop very simple
   while(running == true) {
-    cout << "Please enter your input: " << endl;
+    cout << "Please enter your input. Enter ADD to add a vertex, EDGE to add an edge, DE to delete an edge, DV to delete a vertex, PRINT to print the adjacency table, and QUIT to quit the program " << endl;
     char commandinput[10];
     cin >> commandinput;
     if(strcmp(commandinput, "ADD") == 0) {
